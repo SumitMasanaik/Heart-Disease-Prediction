@@ -60,7 +60,7 @@ st.header('User Input parameters :')
 st.write(data)
 
 
-heart = pd.read_csv(r"C:\Users\sumit\P122 -- Heart Disease\cleaned_heart_disease.csv")
+heart = pd.read_csv(r"C:\Users\sumit\P122 -- Heart Disease\heart_2020_cleaned.csv")
 heart = heart.drop(columns=['Unnamed: 0','HeartDisease'])
 df = pd.concat([data,heart],axis=0)
 
